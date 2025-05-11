@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="/Images/gslLogo.jpeg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <title>Gaurav Sharma Lakhi</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div id="nav">
+      <img class="nav-logo" src="/Images/logoGSL.png" />
+
+      <ul id="side-menu">
+        <li onclick="closemenu(); disablegsap()"><a href="#">Home</a></li>
+        <li onclick="closemenu(); disablegsap()">
+          <a href="#about-me">About</a>
+        </li>
+        <li onclick="closemenu(); disablegsap()"><a href="#books">Books</a></li>
+        <li onclick="closemenu(); disablegsap()">
+          <a href="#highlights">Highlights</a>
+        </li>
+        <li onclick="closemenu(); disablegsap()">
+          <a
+            href="https://gauravmotley.blogspot.com/2019/08/blog-post.html?m=1"
+            target="_main"
+            >Blogs</a
+          >
+        </li>
+        <li onclick="closemenu(); disablegsap()">
+          <a href="#contact">Contact</a>
+        </li>
+        <div class="menu-icon cross" onclick="closemenu()">✖</div>
+      </ul>
+      <div class="menu-icon bars" onclick="openmenu()">☰</div>
+    </div>
+
+    <!-- VIDEO OF THE HERO SECTION -->
+    <video autoplay loop muted src="/Images/Hero_Video_Main.mp4"></video>
+    <img class="backdrop" src="./Images/Hero_Image_Main.jpg" alt="" />
+
+    <!-- MAIN SECTION CONTAINS PAGE 1,2,3-->
+    <div id="main">
+      <!-- PAGE 1  CONTAINS THE MAIN PAGE -->
+      <div id="page1">
+        <h1 id="mainline1">POETRY WITHOUT A RHYME,</h1>
+        <h2 id="mainline2">PROSE WITHOUT AN EXPOSITION</h2>
+        <h3 id="mainline3">YET, I EXIST!</h3>
+        <h4 id="mainline4">- BY GAURAV SHARMA LAKHI</h4>
+      </div>
+
+      <!-- PAGE 2  CONTAINS SCROLLER ABOUT-ME  YOUTUBE-SECTION  BOOKS-SECTION  STANZA-DIV -->
+      <div id="page2">
+        <!-- SCROLLER -->
+        <div id="scroller">
+          <div id="insideScroller">
+            <h4>AUTHOR</h4>
+            <h4>WRITER</h4>
+            <h4>POET</h4>
+            <h4>TEACHER</h4>
+            <h4>MATHEMATICIAN</h4>
+            <h4>ENTREPRENEUR</h4>
+          </div>
+
+          <div id="insideScroller">
+            <h4>AUTHOR</h4>
+            <h4>WRITER</h4>
+            <h4>POET</h4>
+            <h4>TEACHER</h4>
+            <h4>MATHEMATICIAN</h4>
+            <h4>ENTREPRENEUR</h4>
+          </div>
+        </div>
+
+        <!-- ABOUT ME -->
+        <div id="about-me">
+          <img src="/Images/gauravSirImage7.jpg" alt="" />
+
+          <div id="about-me-content">
+            <h3>ABOUT ME</h3>
+            <h4 id="about-me-content-name">Gaurav Sharma</h4>
+            <h4>
+              Author, Director-Ghaziabad Literature Festival, Entrepreneur
+            </h4>
+            <p>
+              Hi, I am Gaurav Sharma Lakhi, an author and entrepreneur
+              passionate about storytelling. My journey as a writer has led me
+              to publish eight widely acclaimed books, five in English and three
+              in Hindi. I often explore themes that resonate deeply with human
+              experiences and emotions in my novels. My aim is to connect with
+              readers on a personal level, inviting them to reflect on their own
+              lives and the world around them. My latest work, CRUSH NO. 43, is
+              particularly close to my heart. It tells the story of a poet named
+              Rhythm, who navigates the complexities of life and love through
+              his encounters with various women. This narrative reflects my
+              belief in the transformative power of love and the profound impact
+              that relationships can have on personal growth. One of my earlier
+              novels, LOVE @ AIR FORCE, is often celebrated as one of the best
+              books set against the backdrop of the Indian Air Force. Other
+              significant titles of mine include RAPESCARS...They Never Heal,
+              DAWN AT DUSK, and IT ALL HAPPENED IN A SCHOOL. In addition to
+              novels, I have also written an anthology of children's stories
+              called UNBUDGETED INNOCENCE and poetry books like वहीदा and
+              धर्मेन्द्र, inspired by the legendary actors Waheeda Rehman and
+              Dharmendra. As the director of the Ghaziabad Literature Festival,
+              I am committed to fostering a vibrant literary community and
+              encouraging new voices in literature. I hope this captures the
+              essence you were looking for!
+            </p>
+          </div>
+
+          <img src="/Images/gauravSirImage4.jpg" alt="" />
+        </div>
+
+        <!-- YOUTUBE SECTION -->
+        <div id="yt-div">
+          <iframe
+            class="yt-video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dUwBz-QYRRg?    si=2xP_5acx13vi0cYr"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+
+          <iframe
+            class="yt-video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/DSnMqfxkTPo?si=JbssGyJoQTmgOYWz"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- BOOKS SECTION -->
+        <h2 id="books">BOOKS</h2>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h4>LOVE @ AIRFORCE</h4>
+              <p>
+                Love @ Air Force by Gaurav Sharma follows Wing Commander Shabd
+                Mishra, who is in unrequited love with his school crush Soumya
+                Mahrishi, now married to another officer, and Sergeant Sushil
+                Awasthi, a discontented soldier facing feelings of inadequacy.
+                The novel explores themes of love, friendship, and the rigid
+                military hierarchy as Shabd navigates his emotions and Sushil
+                confronts his frustrations. With a blend of lighthearted moments
+                and poignant reflections, the story offers insight into the
+                personal challenges of Air Force personnel, enhanced by Shabd's
+                poetic expressions and heartfelt letters.
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/LOVE-AIR-FORCE-GAURAV-SHARMA/dp/9385440659"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h4>DAWN AT DUSK</h4>
+              <p>
+                Dawn at Dusk by Gaurav Sharma follows Aradhaya, a sheltered
+                millionaire whose life is turned upside down after losing his
+                parents and being betrayed by his wife. In his search for
+                healing, he falls for Sambhavi, a writer and professor, who
+                challenges him to prove himself. Distraught, Aradhaya leaves his
+                privileged life to live among those with fewer means. Inspired
+                by his love for Sambhavi, he embarks on a transformative journey
+                of self-discovery. The story explores themes of love, personal
+                growth, and resilience as Aradhaya seeks Sambhavi's acceptance
+                and a new purpose in life.
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/Dawn-At-Dusk-Gaurav-Sharma/dp/9385440306/ref=mp_s_a_1_1?crid=UW12MPF18N91&dib=eyJ2IjoiMSJ9.n7dmAaMWMwhDsXgmGzNsjQ.M6hnup8haq-1s7ORROa_Jj2Oi9Ndf-vLchNRAGTSbnQ&dib_tag=se&keywords=Dawn+at+Dusk+by+gaurav+Sharma&qid=1722687912&sprefix=dawn+at+dusk+by+gaurav+sharma+%2Caps%2C272&sr=8-1"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h4>RAPESCARS</h4>
+              <p>
+                Rape Scars... They Never Heal follows Akriti, a rape survivor
+                whose parents insist on reporting the crime despite police
+                attempts to undermine the case. She faces humiliation from a
+                doctor and a defense lawyer who questions her integrity, making
+                her feel victimized again. Though her lawyer secures a
+                conviction, Akriti surprises everyone by refusing to imprison
+                her attacker, raising questions about her agency versus trauma.
+                The novel powerfully voices survivors' struggles against
+                societal and legal injustices while emphasizing Akriti's
+                resilience in reclaiming her identity.
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/Rapescars-GAURAV-SHARMA/dp/8192982742/ref=mp_s_a_1_1?crid=1F8BW1QI2TKYP&dib=eyJ2IjoiMSJ9.FFu_A7P0YyACbp6-9NRyVqa3-MJUe5ZSKq5cKsup7H0.8wrYrwK-sXG1N_MNIAegck81nBVsuicY9TDn4wL-nHk&dib_tag=se&keywords=Rapescars+by+gaurav+Sharma&qid=1722687829&sprefix=rapescars+by+gaurav+sharma+%2Caps%2C307&sr=8-1"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card4">
+            <div class="overlay">
+              <h4>IT ALL HAPPENED IN A SCHOOL</h4>
+              <p>
+                It All Happened In A School by Gaurav Sharma is narrated by
+                Harjeet Singh, a disillusioned teacher in a private school. The
+                novel addresses serious issues like child safety and moral decay
+                in education, starting with the tragic sexual assault of a young
+                girl, which raises questions about educators' responsibilities.
+                The story explores the emotional and psychological impacts on
+                students and teachers, revealing the harsh realities of modern
+                education. Sharma critiques the educational landscape and
+                reflects on the loss of innocence, making it a poignant
+                exploration of the darker aspects of school life.
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/ALL-HAPPENED-SCHOOL-GAURAV-SHARMA/dp/938544073X/ref=mp_s_a_1_1?crid=2T3HINAFKP728&dib=eyJ2IjoiMSJ9.RXkU1t3ZpjBm39wWTrDIMg.f2HLULfdaXgZzn5my1LAMrgZ2_sbCv1nyAZX7Y5auQ8&dib_tag=se&keywords=it+All+happened+in+a+school+by+gaurav+Sharma&nsdOptOutParam=true&qid=1722688010&sprefix=it+all+happened+in+a+school+by+gaurav+sharma%2Caps%2C243&sr=8-1"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card5">
+            <div class="overlay">
+              <h4>वहीदा</h4>
+              <p>
+                मैं श्रद्धा के धागे में, शब्द पिरो कर लाया हूँ, सुदामा बन
+                प्रशंसा के, मुठ्ठी भर तंदुल लाया हूँ। नाम और काम दोनों से, जो सच
+                मेंअनूठी है, मैं उस ही ‘वहीदा’ की, स्वर्णिम यादें लाया हूँ। अपने
+                अभिनय से कितने चित्रों को सजाया है, नारी के विभिन्न रूपों को
+                चरित्रों में निभाया है। जिस किसी ने भी देखा, उसने ही सराहा है
+                भुलाए ना जो भूलेंगे, वो बारह किरदार लाया हूँ। वहीदा का अर्थ है
+                अद्वितीय।
+                <br />
+                <br />
+                यह पुस्तिका फिल्म जगत की देदिप्यमान तारिका, वहीदा रहमान जी
+                द्वारा अभिनीत बारह चरित्रों पर लिखी कविताओं का संग्रह है।
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/ALL-HAPPENED-SCHOOL-GAURAV-SHARMA/dp/938544073X/ref=mp_s_a_1_1?crid=2T3HINAFKP728&dib=eyJ2IjoiMSJ9.RXkU1t3ZpjBm39wWTrDIMg.f2HLULfdaXgZzn5my1LAMrgZ2_sbCv1nyAZX7Y5auQ8&dib_tag=se&keywords=it+All+happened+in+a+school+by+gaurav+Sharma&nsdOptOutParam=true&qid=1722688010&sprefix=it+all+happened+in+a+school+by+gaurav+sharma%2Caps%2C243&sr=8-1"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card6">
+            <div class="overlay">
+              <h4>धर्मेन्द्र</h4>
+
+              <p>
+                मैं श्रद्धा के धागे में, शब्द पिरो कर लाय हूँ, सुदामा बन प्रशंसा
+                के, मुठ्ठी भर तंदुल लाया हूँ। नाम और काम दोनों से, जो सच में
+                अनूठे हैं, मैं उस ही ‘धर्मेन्द्र’ की, स्वर्णिम यादें लाया हूँ।
+                अपने अभिनय से कितने चित्रों को सजाया है, पौरुष के विभिन्न रूपों
+                को चरित्रों में निभाया है। जिस किसी ने भी देखा , उसने ही सराहा
+                है भुलाए ना जो भूलेंगे, वो तेरह किरदार लाया हूँ।
+                <br />
+                <br />
+                ‘धर्मेंद्र' यह पुस्तिका फिल्म जगत की अविस्मरणीय सितारे,
+                धर्मेंद्र जी द्वारा अभिनीत तेरह चरित्रों पर लिखी कविताओं का
+                संग्रह है।
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0-Gaurav-Sharma/dp/B0BVQWLV85/ref=mp_s_a_1_1?crid=DS7FPSRL5FO7&dib=eyJ2IjoiMSJ9.z7JlgMiOCGAXHzOEr4YiOe_jr_RLvy1w8EyRIW2cBw_GjHj071QN20LucGBJIEps.cLFR0_3rMagE0w6s9mpf0V6exytSwkP-S0CXVrxro5Q&dib_tag=se&keywords=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0+by+gaurav+Sharma&qid=1722688057&sprefix=%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%87%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0+by+gaurav+sharma%2Caps%2C313&sr=8-1"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card7">
+            <div class="overlay">
+              <h4>फूस और जुगनू</h4>
+              <p>
+                ये कविताएँ हैं हिम्मत, हौंसले, मन, जिंदगी और रिश्तों की। मन ने
+                कलम से उधार लिया था, उसी उधार की किश्तों की।। ये बातें हैं सुबह-
+                शाम, धूप- छाँव और खुद से किए वादों की। जमीन-आसमान, चाँद-सितारों
+                और खुद से हुए संवादों की।। फूसऔरजुगनू कुछ कविताओं का संकलन है जो
+                एक भावुक लेकिन जुझारू कलम से जन्मीं हैं। मन की कविताएँ हैं। मन
+                से लिखीं हैं। मन से पढ़िएगा।
+              </p>
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/%E0%A4%AB%E0%A5%82%E0%A4%B8-%E0%A4%94%E0%A4%B0-%E0%A4%9C%E0%A5%81%E0%A4%97%E0%A4%A8%E0%A5%82-Gaurav-Sharma-ebook/dp/B0BBNGDPFB/ref=mp_s_a_1_1?crid=1XFO85E3T7WC7&dib=eyJ2IjoiMSJ9.kpSuI6D5MXAX_VMhYesGykADqPZBunW48Mq1dF7Pi0o.0bNfupXP4NbrKu4RPAipVrPwSQMbWl1o2rZa_NSTzcc&dib_tag=se&keywords=%E0%A4%AB%E0%A5%82%E0%A4%B8+%E0%A4%94%E0%A4%B0+%E0%A4%9C%E0%A5%81%E0%A4%97%E0%A4%A8%E0%A5%82+by+gaurav+Sharma&qid=1722688123&sprefix=%E0%A4%AB%E0%A5%82%E0%A4%B8+%E0%A4%94%E0%A4%B0+%E0%A4%9C%E0%A5%81%E0%A4%97%E0%A4%A8%E0%A5%82+by+gaurav+sharma%2Caps%2C257&sr=8-1"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card" id="card8">
+            <div class="overlay">
+              <h4>UNBUDGETED INNOCENCE</h4>
+              <p>
+                Unbudgeted Innocence is a collection of ten stories withholding
+                all the elements of the raw humanism in a child- they err
+                easily, they think everything is easy and achievable, their
+                inability to pretend, their unpredictable and restless focus,
+                their zeal for adventure, love for animals, purity of their
+                emotions and their unadulterated guilt after commiting a
+                mistake.
+              </p>
+              <div class="buy-now-button"><a href="#">Buy Now</a></div>
+            </div>
+          </div>
+
+          <div class="card" id="card9">
+            <div class="overlay">
+              <h4>CRUSH NO. 43</h4>
+              <p>
+                Crush No. 43 by Gaurav Sharma follows Rhythm, a celebrated poet
+                who views every woman who impresses him as a 'crush,' believing
+                their emotions inspire his poetry. Orphaned twice and adopted by
+                a notorious goon, he maintains a positive outlook on life. His
+                adoptive parents, Shankar and Usha, provide him opportunities
+                while shielding him from Shankar's criminal past. Rhythm writes
+                women-centric poems but struggles to find true love until he
+                discovers Dr. Vasudha, who is infatuated with him. The novel
+                explores his relationships and the lasting impressions of the
+                women in his life, celebrating the complexities of love and
+                personal growth.
+              </p>
+
+              <div class="buy-now-button">
+                <a
+                  href="https://www.amazon.in/Crush-No-43-Gaurav-Sharma/dp/9392598726/ref=mp_s_a_1_fkmr0_1?crid=2TX27TVOHNDE4&dib=eyJ2IjoiMSJ9.WmIkUZA1_6IO209BkPDHWJw1MZEy1k6mSkO7aq54m4DGP72U3wQB92aFdFjyttkf5OX553ALsG411lM6s5srXx7GGqgZ1aWb8gUU6ltCODc.2edKSIpu0-20DbgJOiCV-T9BQ-NLmjhZ8GhK14nliQA&dib_tag=se&keywords=crush+no+43&qid=1722687789&sprefix=crush+no+43%2Caps%2C450&sr=8-1-fkmr0"
+                  target="_main"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIV WITH STANZA -->
+        <div id="stanza-div">
+          <img id="quote1" src="/Images/quote-left.png" alt="" />
+          <img id="quote2" src="/Images/quote-right.png" alt="" />
+          <p>
+            मेरे पास रातों की स्याही नहीं है,<br />
+            मेरे पास सुबहों की पुरवाई है,<br />
+            मैंने चाँद से कहानियाँ सुनकर,<br />
+            नए लहज़े में सूरज को सुनाई है |,<br />
+            -गौरव शर्मा
+          </p>
+        </div>
+      </div>
+
+      <!-- PAGE 3 CONTAINS GALLERY-SLIDER-->
+      <div id="page3">
+        <div class="gallery-wrap">
+          <i class="fa-solid fa-angle-left" id="leftBtn"></i>
+          <div class="gallery">
+            <div>
+              <span><img src="/Images for slider/sliderImage8.jpg" /></span>
+              <span><img src="/Images for slider/sliderImage2.jpg" /></span>
+              <span><img src="/Images for slider/sliderImage9.jpg" /></span>
+            </div>
+            <div>
+              <span><img src="/Images/gauravSirImage8.jpg" /></span>
+              <span><img src="/Images for slider/sliderImage3.jpg" /></span>
+              <span><img src="/Images for slider/sliderImage7.jpg" /></span>
+            </div>
+            <div>
+              <span><img src="/Images for slider/sliderImage1.jpg" /></span>
+              <span><img src="/Images for slider/sliderImage6.jpg" /></span>
+              <span><img src="/Images for slider/sliderImage4.jpg" /></span>
+            </div>
+          </div>
+          <i class="fa-solid fa-angle-right" id="rightBtn"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 4 CONTAINS HIGHLIGHTS -->
+    <div id="highlights">
+      <h3>MILESTONES & MEMORIES</h3>
+      <div class="layout">
+        <div class="masonry-container">
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage1.jpg" alt="" />
+            <p>Pune Book Festival, 2024</p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage2.jpg" alt="" />
+            <p>Ghaziabad Literature Festival, 2024</p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage3.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage4.jpg" alt="" />
+            <p>
+              Welcoming Shri Narendra Kashyap, Hon. Minister, Backward Classes,
+              UP Govt at the Ghaziabad Literature Festival
+            </p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage5.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage6.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage7.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage8.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage9.jpg" alt="" />
+            <p>Podcast with Paricharcha Unplugged</p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage10.jpg" alt="" />
+            <p>Ad shoot for ACC Cement</p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage11.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage12.jpg" alt="" />
+            <p>
+              With Mrs Jayanti Ranganathan, Executive Editor, Hindustan (Hindi
+              newspaper) at the Ghaziabad Literature Festival, 2024
+            </p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage13.jpg" alt="" />
+            <p>
+              "वहीदा" in the hands of Vishal Bhardwaj ji... Occasion was the
+              launch of "Anarkali" by Sumant Batra ji
+            </p>
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage14.jpg" alt="" />
+          </div>
+          <div class="masonry-card">
+            <img src="./Images for grid/gridImage15.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 5 CONTAINS CONTACT FORM (ACCESS KEY)-->
+    <div id="contact" id="redirect_contact">
+      <div class="form-container">
+        <div class="form-left">
+          <h3 class="form-heading">Get In Touch</h3>
+          <p class="form-text">Share your thoughts here!</p>
+
+          <!-- // on submit call send email -->
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="84bf1f39-e6f3-4d05-b395-222682176c0e"
+            />
+
+            <div class="inputBox">
+              <input
+                type="text"
+                name="name"
+                class="name"
+                placeholder="Enter your name"
+              />
+            </div>
+
+            <div class="inputBox">
+              <input
+                type="text"
+                name="email"
+                class="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+
+            <div class="inputBox">
+              <textarea
+                name="message"
+                class="message"
+                placeholder="Enter your message..."
+              ></textarea>
+            </div>
+            <button class="form-btn">Submit</button>
+            <input
+              type="hidden"
+              name="subject"
+              value="New form submission on your website"
+            />
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://gauravsharmalakhi.in/"
+            />
+          </form>
+        </div>
+
+        <div class="form-right">
+          <!-- ILLUSTRATION -->
+          <div class="illustration">
+            <img src="/Illustration/msg_sent_illustration_2.svg" alt="" />
+          </div>
+
+          <!-- CONTACT INFO BELOW THE ILLUSTRATION  -->
+          <div class="contact-info">
+            <!-- INFOBOX 1 FOR LOCATION-->
+            <div class="info-box">
+              <div class="icon">
+                <i class="fa-solid fa-location-dot" style="color: #8faa42"></i>
+              </div>
+              <div class="info-text">
+                <p>Ghaziabad, Uttar Pradesh, India</p>
+              </div>
+            </div>
+
+            <!-- INFOBOX 2 FOR PHONE-->
+            <div class="info-box">
+              <div class="icon">
+                <i class="fa-solid fa-phone" style="color: #8faa42"></i>
+              </div>
+              <div class="info-text">
+                <a href="tel:+91 9910798060">+91 9910798060</a>
+              </div>
+            </div>
+
+            <!-- INFOBOX 3 FOR -->
+            <div class="info-box">
+              <div class="icon">
+                <i class="fa-solid fa-envelope" style="color: #8faa42"></i>
+              </div>
+              <div class="info-text">
+                <a href="mailto:gauravinfinity2009@gmail.com"
+                  >gauravinfinity2009@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/gauravsharmalakhi"
+            class="logo-facebook"
+            target="_main"
+          >
+            <i class="fa-brands fa-facebook" style="color: #000000"></i>
+          </a>
+
+          <a
+            href="https://x.com/gauravlakhi"
+            class="logo-twitter"
+            target="_main"
+          >
+            <i class="fa-brands fa-x-twitter" style="color: #000000"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/gauravlakhi/"
+            class="logo-instagram"
+            target="_main"
+          >
+            <i class="fa-brands fa-instagram" style="color: #000000"></i>
+          </a>
+
+          <a
+            href="https://www.youtube.com/@gauravsharmalakhi3201"
+            class="logo-youtube"
+            target="_main"
+          >
+            <i class="fa-brands fa-youtube" style="color: #000000"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/gauravsharmalakhi/"
+            class="logo-linkedin"
+            target="_main"
+          >
+            <i class="fa-brands fa-linkedin" style="color: #000000"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">©2024 Gaurav Sharma Lakhi, All Rights Reserved</div>
+    </footer>
+
+    <!-- SCRIPT TAG CDN-FONT-AWESOME  CDN-GSAP  SCRIPT.JS-->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
